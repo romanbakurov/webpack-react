@@ -1,0 +1,19 @@
+@font-face {
+    font-weight: 700;
+    font-family: 'OpenSans';
+    font-style: normal;
+    src: url("./assets/fonts/OpenSans-Bold.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-weight: 400;
+    font-family: 'OpenSans';
+    font-style: normal;
+    src: url("./assets/fonts/OpenSans-Regular.woff2") format("woff2");
+  }
+  
+  html,
+  body {
+    font-family: 'OpenSans', sans-serif;
+  }
+  
