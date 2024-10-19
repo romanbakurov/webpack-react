@@ -1,6 +1,6 @@
 {
   "name": "webpack-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.js --env env=prod",
@@ -10,7 +10,7 @@
     "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
     "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\" --ignore-path ./.prettierignore",
     "check": "npm run stylelint:fix && npm run lint && npm run format",
-    "prepare": "husky install",  
+    "prepare": "husky install",
     "commit": "npm run check && cz"
   },
   "keywords": [],
@@ -73,7 +73,7 @@
   },
   "config": {
     "commitizen": {
-        "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog"
     }
-}
+  }
 }
